@@ -15,6 +15,7 @@ class FactoryMacros
 {
     /**
      * @param  array<model-property<TModel>, mixed>  $attributes
+<<<<<<< HEAD
      * @return \Closure(array<model-property<TModel>, mixed>, array<model-property<TModel>, mixed>):TModel
      */
     public function firstOrCreate(array $attributes = []): \Closure
@@ -30,6 +31,8 @@ class FactoryMacros
 
     /**
      * @param  array<model-property<TModel>, mixed>  $attributes
+=======
+>>>>>>> 007776b (Add a test to reproduce issue #1591)
      * @param  array<model-property<TModel>, mixed>  $values
      * @return \Closure(array<model-property<TModel>, mixed>, array<model-property<TModel>, mixed>):TModel
      */
